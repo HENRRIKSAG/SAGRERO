@@ -1,0 +1,61 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+h1 {
+    font-size: 30px;
+    font-family:sans-serif
+    font-weigsht: bold;
+}
+h2 {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+header, section, nav, footer, aside, article, hgroup{
+    display: block;
+}
+body{
+    text-align: center;
+}
+.agrupar{
+    width: 960px;
+    border: solid red;
+    margin: 10px auto;
+}
+.agrupar h1{
+    text-align: left;
+}
+.header{
+    background: #FFFBB9;
+    border: 2px solid black;
+    padding: 5px;
+}
+.menu{
+    background: #FFFBB9;
+    border: 2px solid black;
+    padding: 5px; 
+    text-align: left;  
+}
+.menu li{
+    list-style: none;
+    padding: 3px;
+    display: inline-block;
+}
+.section{
+    margin: 10px;
+    width: 600px;
+    border: solid black;
+    background: aqua;
+    float: left;
+}
+.colum{
+    width: 320px;
+    border: 2px solid black;
+    background: aqua;
+    float: left;
+    margin: 20px 0;
+}
+.pie{
+    clear: both;
+}
